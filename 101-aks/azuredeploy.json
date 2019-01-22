@@ -136,11 +136,5 @@
                 }
             }
         }
-    ],
-    "outputs": {
-        "controlPlaneFQDN": {
-            "type": "string",
-            "value": "[reference(parameters('resourceName')).fqdn]"
-        }
-    }
+    ]
 }
